@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Edge 效率扩展中心 · Privacy & Support</title>
+  <style>
+    :root {
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --border: #e2e8f0;
+      --blue: #1d4ed8;
+      --green: #059669;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 48px auto;
+      padding: 0 20px;
+    }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    .lead { color: var(--muted); margin-bottom: 28px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 2px 10px rgba(15, 23, 42, 0.04);
+    }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 10px;
+    }
+    .tag-blue { background: #dbeafe; color: var(--blue); }
+    .tag-green { background: #d1fae5; color: var(--green); }
+    h2 { font-size: 20px; margin: 6px 0 10px; }
+    p { color: var(--muted); font-size: 14px; }
+    .links { margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap; }
+    a.btn {
+      display: inline-block;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      padding: 8px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: #f1f5f9;
+    }
+    a.btn:hover { background: #e2e8f0; }
+    footer {
+      margin-top: 40px;
+      font-size: 13px;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>Microsoft Edge 效率扩展支持与隐私中心</h1>
+    <p class="lead">Extension Support &amp; Privacy Policy Portal (Updated: November 16, 2026)</p>
+
+    <div class="grid">
+      <section class="card">
+        <span class="tag tag-blue">学术与科研效率 · Academic</span>
+        <h2>CiteGuard — GB/T 7714-2025 文献核验与排版助手</h2>
+        <p>面向论文写作与期刊投稿的参考文献新国标排版、CrossRef / OpenAlex / arXiv 多源真实性核验、网页元标签提取及本地 Word (.docx) 导出工具。</p>
+        <div class="links">
+          <a class="btn" href="./citeguard-privacy.html">查看隐私政策 (Privacy Policy)</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <span class="tag tag-green">电商选品财务 · E-Commerce</span>
+        <h2>ProfitLedger 算账宝 — 电商利润与保本 ROI 侧边栏</h2>
+        <p>100% 纯本地离线运行的拼多多 / 淘宝 / 抖音小店 / 小红书单品净利润、退货损耗、保本投产比（ROI）测算与本地 SKU 台账导出工具。</p>
+        <div class="links">
+          <a class="btn" href="./profitledger-privacy.html">查看隐私政策 (Privacy Policy)</a>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <p>如对扩展功能、隐私安全或激活授权有任何疑问，请通过商店详情页开发者联系邮箱与我们取得联系。</p>
+    </footer>
+  </main>
+</body>
+</html>
