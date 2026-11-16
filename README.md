@@ -1,1 +1,2 @@
 # edge
+Update Pages trigger
